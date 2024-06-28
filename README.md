@@ -12,7 +12,8 @@ Technologies Used
 
 **Project Components**
 
-a. TriLayer WebOps: Dockerized & Kubernetes Orchestrated
+**a. TriLayer WebOps: Dockerized & Kubernetes Orchestrated**
+
 The application is divided into three tiers:
 
 Frontend: The user interface of the application.
@@ -20,18 +21,22 @@ Backend: The server-side logic and operations.
 Database: The storage for application data.
 These components are containerized using Docker and managed with Kubernetes for orchestration.
 
-b. Configuration Management Using Ansible (Roles)
+**b. Configuration Management Using Ansible (Roles)**
 Ansible is used to automate the configuration and setup of the environment. The following Ansible playbook and roles are used:
 
-ansible.yml: Main playbook that includes the necessary roles and tasks.
-roles/: Directory containing Ansible roles for different components.
-c. Application Code Management Using Git
+**ansible.yml:**  Main playbook that includes the necessary roles and tasks.
+
+**roles/:**  Directory containing Ansible roles for different components.
+
+**c. Application Code Management Using Git**
 The application code and configuration files are managed using Git. This allows for version control and collaboration.
 
-d. Building CI/CD Pipeline to Deploy a New Version of Application (Jenkins)
+**d. Building CI/CD Pipeline to Deploy a New Version of Application (Jenkins)**
+
 Jenkins is used to set up a CI/CD pipeline that automates the build, test, and deployment process. This ensures that new versions of the application are deployed efficiently and consistently.
 
-e. Building Monitoring for Application
+**e. Building Monitoring for Application**
+
 Monitoring tools are integrated to track the application's performance, availability, and health. This helps in proactive identification and resolution of issues.
 
 **File Structure**
