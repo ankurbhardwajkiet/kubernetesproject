@@ -36,7 +36,6 @@ Monitoring tools are integrated to track the application's performance, availabi
 
 
 project-root/
-│
 ├── ansible/
 │   ├── ansible.yml
 │   └── roles/
@@ -47,21 +46,17 @@ project-root/
 │       │   └── tasks/
 │       │       └── main.yml
 │       └── ...
-│
 ├── kubernetes/
 │   ├── deployment.yml
 │   └── service.yml
-│
 ├── docker/
 │   └── Dockerfile
-│
 ├── jenkins/
 │   └── Jenkinsfile
-│
 ├── monitoring/
 │   └── monitoring-setup.yml
-│
 └── README.md
+
 
 
 **Key Files**
