@@ -47,9 +47,9 @@ Monitoring tools are integrated to track the application's performance, availabi
 
 ### **Key Files**
 
-**ansible.yml: ** Main Ansible playbook.
+**ansible.yml:** Main Ansible playbook.
 
-**deployment.yml: ** Kubernetes deployment configuration.
+**deployment.yml:** Kubernetes deployment configuration.
 
 **service.yml:** Kubernetes service configuration.
 
@@ -63,18 +63,18 @@ Monitoring tools are integrated to track the application's performance, availabi
 
 ### **Clone the Repository:**
 
-git clone https://github.com/ankurbhardwajkiet/three-tier-web-app.git
-cd three-tier-web-app
+*git clone https://github.com/ankurbhardwajkiet/three-tier-web-app.git
+cd three-tier-web-app*
 
 ## **Set Up Environment:**
 
 **Use Ansible to set up the environment:**
 
-ansible-playbook ansible/ansible.yml
+*ansible-playbook ansible/ansible.yml*
 
 **Build and Deploy with Docker and Kubernetes:**
 
-kubectl apply -f kubernetes/deployment.yml
+*kubectl apply -f kubernetes/deployment.yml*
 kubectl apply -f kubernetes/service.yml
 
 **Configure CI/CD Pipeline:**
