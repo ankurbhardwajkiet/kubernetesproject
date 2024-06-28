@@ -1,8 +1,8 @@
-**Project Overview**
+# **Project Overview**
 
 This project **TriLayer WebOps: Dockerized & Kubernetes Orchestrated** demonstrates the deployment of a three-tier web application using Docker and Kubernetes. It includes configuration management with Ansible, application code management with Git, a CI/CD pipeline for application deployment using Jenkins, and application monitoring via AWS-Cloudwatch.
 
-Technologies Used
+## Technologies Used
 **Docker:** Containerization of the application components.
 **Kubernetes:** Orchestrating the deployment, scaling, and management of containerized applications.
 **Ansible:** Configuration management and automation using Ansible roles.
@@ -10,7 +10,7 @@ Technologies Used
 **Jenkins:** Continuous Integration and Continuous Deployment (CI/CD) pipeline.
 **Monitoring Tools:** Tools for monitoring application performance and health.
 
-**Project Components**
+## **Project Components**
 
 **a. TriLayer WebOps: Dockerized & Kubernetes Orchestrated**
 
@@ -45,30 +45,43 @@ Monitoring tools are integrated to track the application's performance, availabi
 
 
 
-**Key Files**
-ansible.yml: Main Ansible playbook.
-deployment.yml: Kubernetes deployment configuration.
-service.yml: Kubernetes service configuration.
-Dockerfile: Dockerfile for building the application image.
-Jenkinsfile: Jenkins pipeline configuration.
-monitoring-setup.yml: Configuration for setting up application monitoring.
+### **Key Files**
 
-**How to Use**
-**Clone the Repository:**
+**ansible.yml: ** Main Ansible playbook.
+
+**deployment.yml: ** Kubernetes deployment configuration.
+
+**service.yml:** Kubernetes service configuration.
+
+**Dockerfile:** Dockerfile for building the application image.
+
+**Jenkinsfile:** Jenkins pipeline configuration.
+
+**monitoring-setup.yml:** Configuration for setting up application monitoring.
+
+## **How to Use**
+
+### **Clone the Repository:**
+
 git clone https://github.com/ankurbhardwajkiet/three-tier-web-app.git
 cd three-tier-web-app
 
-**Set Up Environment:
-Use Ansible to set up the environment:**
+## **Set Up Environment:**
+
+**Use Ansible to set up the environment:**
+
 ansible-playbook ansible/ansible.yml
 
 **Build and Deploy with Docker and Kubernetes:**
+
 kubectl apply -f kubernetes/deployment.yml
 kubectl apply -f kubernetes/service.yml
 
 **Configure CI/CD Pipeline:**
+
 Set up Jenkins and use the provided Jenkinsfile to configure the CI/CD pipeline.
 
 **Monitor the Application:**
+
 Use the monitoring tools configured in monitoring/monitoring-setup.yml.
 
