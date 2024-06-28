@@ -63,8 +63,7 @@ Monitoring tools are integrated to track the application's performance, availabi
 
 ### **Clone the Repository:**
 
-*git clone https://github.com/ankurbhardwajkiet/three-tier-web-app.git
-cd three-tier-web-app*
+*git clone https://github.com/ankurbhardwajkiet/kubernetesproject.git*
 
 ## **Set Up Environment:**
 
