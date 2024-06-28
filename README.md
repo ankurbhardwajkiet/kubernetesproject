@@ -11,6 +11,7 @@ Technologies Used
 **Monitoring Tools:** Tools for monitoring application performance and health.
 
 **Project Components**
+
 a. TriLayer WebOps: Dockerized & Kubernetes Orchestrated
 The application is divided into three tiers:
 
@@ -35,28 +36,7 @@ Monitoring tools are integrated to track the application's performance, availabi
 
 **File Structure**
 
-
-project-root/
-├── ansible/
-│   ├── ansible.yml
-│   └── roles/
-│       ├── role1/
-│       │   └── tasks/
-│       │       └── main.yml
-│       ├── role2/
-│       │   └── tasks/
-│       │       └── main.yml
-│       └── ...
-├── kubernetes/
-│   ├── deployment.yml
-│   └── service.yml
-├── docker/
-│   └── Dockerfile
-├── jenkins/
-│   └── Jenkinsfile
-├── monitoring/
-│   └── monitoring-setup.yml
-└── README.md
+![image](https://github.com/ankurbhardwajkiet/kubernetesproject/assets/46249028/85e58d68-1c8b-4346-b884-b6db7aee0d84)
 
 
 
