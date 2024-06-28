@@ -33,6 +33,8 @@ e. Building Monitoring for Application
 Monitoring tools are integrated to track the application's performance, availability, and health. This helps in proactive identification and resolution of issues.
 
 **File Structure**
+
+
 project-root/
 │
 ├── ansible/
@@ -60,6 +62,7 @@ project-root/
 │   └── monitoring-setup.yml
 │
 └── README.md
+
 
 **Key Files**
 ansible.yml: Main Ansible playbook.
